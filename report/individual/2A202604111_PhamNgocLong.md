@@ -68,7 +68,7 @@ Ngoài ra LLM nhỏ (4a và cả 4d có prompt phòng thủ) sai 29/50, đúng b
 
 **Đề #2** (SEED 9493 % 6 = 1): *ML · Giảm vocab còn 100 từ và tăng lên 5000 từ (`build_vocab(..., max_size)`). Train lại, báo F1 test. Giải thích xu hướng.*
 
-> **TODO (tự làm, không dùng AI, theo luật thử thách):** ô code thử thách trong notebook đang để trống. Cần viết code ở ô `# ✏️ Code thử thách của bạn ở đây`, chạy, rồi chép kết quả vào đây.
+---
 
 | `max_size` | F1 test | Precision | Recall |
 | ---: | ---: | ---: | ---: |
@@ -76,9 +76,9 @@ Ngoài ra LLM nhỏ (4a và cả 4d có prompt phòng thủ) sai 29/50, đúng b
 | 2000 (mặc định) | 0.855 | 1.000 | 0.747 |
 | 5000 | *(điền)* | *(điền)* | *(điền)* |
 
-*Cách làm:* *(điền: mô tả ngắn các bước bạn đã làm)*
+*Cách làm:* ---
 
-*Giải thích xu hướng:* *(điền: giải thích bằng lời của bạn, dựa trên số liệu vừa chạy)*
+*Giải thích xu hướng:* ---
 
 ## 6. Phương án cho sản phẩm thật
 
@@ -102,8 +102,8 @@ Ngoài ra LLM nhỏ (4a và cả 4d có prompt phòng thủ) sai 29/50, đúng b
 
 | Phần | Hỏi AI gì | AI trả lời / viết gì | Tôi đã sửa / kiểm chứng gì |
 | --- | --- | --- | --- |
-| Phần 4 (vùng được dùng AI) | *(TODO: điền đúng những gì bạn đã hỏi khi viết `call_openai`, prompt, `parse_label`, `llm_classify_batch`)* | *(điền)* | *(điền)* |
-| Câu trả lời giải thích trong notebook | *(TODO: nếu có dùng AI để soạn hoặc diễn đạt câu trả lời, ghi rõ ở đây)* | *(điền)* | *(điền)* |
-| Báo cáo này (`2A202604111_PhamNgocLong.md`) | Nhờ Claude Code "giúp hoàn thành báo cáo" | Claude Code đọc notebook và `lab1_report.json`, soạn các mục 2, 3, 4, 6 từ số liệu của tôi, và phát hiện lỗi LLM `invalid=40/40` cùng ảnh `hand_calc.jpg` bị trống. Mục 5 và phần "điều đã học" được để trống cho tôi tự làm. | *(TODO: ghi những gì bạn đã đọc lại, đối chiếu với notebook và sửa)* |
+| Phần 4 (vùng được dùng AI) | Tôi đã nhờ Copilot soạn giúp tôi hàm | AI đã trả về đủ hàm | Tôi kiểm chứng rằng hàm thực sự ra kết quả trên jupyter |
+| Câu trả lời giải thích trong notebook | Các câu hỏi từ phần 2 trở đi, tôi đã nhờ AI viết ngắn gọn câu trả lời | AI đã cho tôi câu trả lời ngắn gọn | Tôi đã kiểm tra rằng câu trả lời có đủ ý kiến tôi muốn diễn đạt |
+| Báo cáo này (`2A202604111_PhamNgocLong.md`) | Nhờ Claude Code "giúp hoàn thành báo cáo" | Claude Code đọc notebook và `lab1_report.json`, soạn các mục 2, 3, 4, 6 từ số liệu của tôi, và phát hiện lỗi LLM `invalid=40/40` cùng ảnh `hand_calc.jpg` bị trống. Mục 5 và phần "điều đã học" được để trống cho tôi tự làm. | Tôi chưa sửa, hết giờ làm bài rồi |
 
-**Điều tôi hiểu ra hôm nay:** *(TODO: 2–3 câu bằng lời của bạn)*
+**Điều tôi hiểu ra hôm nay:** Có nhiều cách tiếp cận để giải bài toán lọc spam trong hòm thư, mỗi cách sẽ có ưu nhược riêng. Bằng việc kiểm chứng kết quả sau mỗi phần - mỗi cách thực hiện, tôi nắm rõ hơn điểm mạnh, điểm yếu của các cách tiêp cận. 
